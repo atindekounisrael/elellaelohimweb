@@ -128,7 +128,7 @@ const Home = () => {
 
           {/* Hero Image */}
           <motion.div
-            className="absolute bottom-0 center-0 w-1/3 h-2/5 opacity-100"
+            className="absolute bottom-0 center-0 w-1/3 h-1/3 opacity-100"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 0.3, y: 0 }}
             transition={{ duration: 2, delay: 0.8 }}
